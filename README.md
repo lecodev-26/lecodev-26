@@ -11,14 +11,11 @@
 ### Pull Requests
 
 - [firstcontributions/first-contributions#124856](https://github.com/firstcontributions/first-contributions/pull/124856) — ✅ Merged · Added contributor entry
+- [Basekick-Labs/arc#769](https://github.com/Basekick-Labs/arc/pull/769) — 🟢 Open · `ingest/msgpack`: log debug when numeric host fallback fires
 
 ### Issues
 
-- [astral-sh/uv#21643](https://github.com/astral-sh/uv/issues/21643) — fix: avoid panic on missing lockfile (code)
 - [Basekick-Labs/arc#768](https://github.com/Basekick-Labs/arc/issues/768) — fix: nil check on dispatch handler (code)
-- [lunargate-ai/gateway#5](https://github.com/lunargate-ai/gateway/issues/5) — docs: circuit breakers config
-- [lunargate-ai/gateway#6](https://github.com/lunargate-ai/gateway/issues/6) — feat: DeepSeek provider support
-- [Ammar0144/ai#1](https://github.com/Ammar0144/ai/issues/1) — docs: IP rate limiting
 
 
 <br>
