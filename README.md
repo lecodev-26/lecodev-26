@@ -64,99 +64,83 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 ## 🛠️ Tech Stack
 
-**🧠 Languages**
+<div align="center">
 
+| 🧠 Languages | ⚙️ AI / LLM | 🏗️ Infra |
+|:---:|:---:|:---:|
+| 
 
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
- 
-
-![Rust](https://img.shields.io/badge/Rust-CE4A17?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-CE4A17?style=flat-square&logo=rust&logoColor=white)
 
  
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
  
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 
  
 
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+ | 
 
-
-**⚙️ AI / LLM**
-
-
-
-![OpenAI](https://img.shields.io/badge/OpenAI%20APIs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
  
 
-![Anthropic](https://img.shields.io/badge/Anthropic%20APIs-CC785C?style=for-the-badge&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-CC785C?style=flat-square&logoColor=white)
 
  
 
-![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logoColor=white)
 
  
 
-![LLM Engineering](https://img.shields.io/badge/LLM%20Engineering-6E56CF?style=for-the-badge&logo=probot&logoColor=white)
+![Agents](https://img.shields.io/badge/AI%20Agents-22C55E?style=flat-square&logoColor=white)
+
+ | 
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
  
 
-![AI Agents](https://img.shields.io/badge/AI%20Agents-22C55E?style=for-the-badge&logoColor=white)
-
-
-
-**🏗️ Infrastructure & Observability**
-
-
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
  
 
-![REST APIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
  
 
-![HTTP](https://img.shields.io/badge/HTTP%20Proxy-0D1117?style=for-the-badge&logo=nginx&logoColor=white)
+![REST](https://img.shields.io/badge/REST-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+ |
+
+**🧪 Exploring →** 
+
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square)
 
  
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
  
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-
-
-**🧪 Currently Exploring**
-
-
-
-![OpenTelemetry](https://img.shields.io/badge/%E2%9C%85%20OpenTelemetry-425CC7?style=for-the-badge&labelColor=0D1117)
+![Circuit Breakers](https://img.shields.io/badge/Circuit%20Breakers-F59E0B?style=flat-square)
 
  
 
-![Redis](https://img.shields.io/badge/%F0%9F%9A%80%20Redis-DC382D?style=for-the-badge&labelColor=0D1117)
+![LLM Streaming](https://img.shields.io/badge/LLM%20Streaming-22C55E?style=flat-square)
 
- 
 
-![Circuit Breakers](https://img.shields.io/badge/%F0%9F%94%84%20Circuit%20Breakers-F59E0B?style=for-the-badge&labelColor=0D1117)
 
- 
-
-![LLM Streaming](https://img.shields.io/badge/%F0%9F%93%A1%20LLM%20Streaming-22C55E?style=for-the-badge&labelColor=0D1117)
+</div>
 
 
 
