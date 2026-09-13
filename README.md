@@ -202,45 +202,32 @@ A Rust systems project under Axiom Systems Tech.
 
 ---
 
-## 📈 Contribution Activity
+## 📊 GitHub
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lecodev-26&bg_color=0D1117&color=8B949E&line=00D4FF&point=FFFFFF&area=true&hide_border=true&custom_title=lecodev%20%E2%80%94%20Contribution%20Activity" width="95%" />
+<img src="https://komarev.com/ghpvc/?username=lecodev-26&style=for-the-badge&color=00D4FF&label=PROFILE+VIEWS" />
+
+<br><br>
+
+<a href="https://github.com/lecodev-26?tab=repositories">
+<img src="https://img.shields.io/badge/REPOSITORIES-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/lecodev-26?tab=followers">
+<img src="https://img.shields.io/github/followers/lecodev-26?style=for-the-badge&logo=github&label=FOLLOWERS&color=181717" />
+</a>
+
+<a href="https://github.com/lecodev-26?tab=stars">
+<img src="https://img.shields.io/github/stars/lecodev-26?style=for-the-badge&logo=github&label=STARS&color=F5C518" />
+</a>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=lecodev-26&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="95%" />
-
-</div>
-
----
-
-## 💻 Coding Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=lecodev-26&hide_border=true&theme=transparent&bg_color=0D1117&title_color=00D4FF&text_color=8B949E" />
-
-</div>
-
-> **Note:** WakaTime only displays useful data after your WakaTime account is connected and has recorded coding activity.
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=lecodev-26&show_icons=true&hide_border=true&theme=transparent&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=8B949E&ring_color=00D4FF&cache_seconds=1800" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lecodev-26&layout=compact&hide_border=true&theme=transparent&bg_color=0D1117&title_color=00D4FF&text_color=8B949E&langs_count=8&cache_seconds=1800" />
+`Go` · `Rust` · `Python` · `C`
 
 </div>
 
