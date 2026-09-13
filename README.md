@@ -2,292 +2,280 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20&height=210&section=header&text=lecodev&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Infrastructure%20%E2%80%A2%20Go%20%E2%80%A2%20LLM%20Gateways%20%E2%80%A2%20Resilience&descAlignY=60&descSize=18&descColor=aaaaaa&animation=fadeIn" />
 
-[
+<a href="https://readme-typing-svg.demolab.com">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=00D4FF&center=true&vCenter=true&width=720&height=55&lines=Building+resilient+AI+infrastructure+%F0%9F%9B%A1%EF%B8%8F;LLM+gateways+that+don%27t+fall+over+at+2am;Go+%7C+Rust+%7C+Python+%7C+C;If+it+breaks%2C+I+build+a+layer+around+it" />
+</a>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=00D4FF&center=true&vCenter=true&width=680&height=48&lines=Building+resilient+AI+infrastructure+%F0%9F%9B%A1%EF%B8%8F;LLM+Gateways+that+don%27t+fall+over+at+2am;Go+%7C+Rust+%7C+Python+%7C+C;If+it+breaks%2C+I+build+a+layer+around+it)
+<br>
 
-](https://git.io/typing-svg)
+<strong>AI INFRASTRUCTURE · BACKEND · SYSTEMS</strong>
 
-<br/>
+<br><br>
 
+<a href="https://github.com/lecodev-26">
+<img src="https://img.shields.io/badge/GitHub-@lecodev--26-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:axiomsystemsechepares@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
+<br><br>
 
-![role](https://img.shields.io/badge/%F0%9F%92%BB%20role-AI%20Infrastructure%20%C3%97%20Backend%20Dev-0D1117?style=for-the-badge&labelColor=0D1117)
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-CE4A17?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 
+<br><br>
 
-
-
-![stack](https://img.shields.io/badge/%F0%9F%94%A7%20stack-Go%20%C2%B7%20Rust%20%C2%B7%20Python%20%C2%B7%20C-0D1117?style=for-the-badge&labelColor=161B22)
-
-
-
-
-![status](https://img.shields.io/badge/%E2%9A%A1%20status-Building%20in%20public-22C55E?style=for-the-badge&labelColor=0D1117)
-
-
-
-<br/>
-
-[
-
-![Email](https://img.shields.io/badge/Say%20Hi-lecodev26%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)
-
-](mailto:lecodev26@gmail.com)
-[
-
-![GitHub](https://img.shields.io/badge/Follow-%40lecodev--26-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
-
-](https://github.com/lecodev-26)
-[
-
-![Views](https://komarev.com/ghpvc/?username=lecodev-26&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS&labelColor=0D1117)
-
-](https://github.com/lecodev-26)
+<img src="https://komarev.com/ghpvc/?username=lecodev-26&style=flat-square&color=00D4FF&label=PROFILE+VIEWS" />
 
 </div>
 
 ---
 
-## 👾 Hey, I'm lecodev — I build the layer that keeps AI from breaking.
+## 👾 Hey, I'm lecodev
 
-When an LLM provider goes down, slows to a crawl, or hits a rate limit, most apps just die. I build the infrastructure in between — **intelligent gateways, failover systems, and resilience layers** so AI agents keep running no matter what.
+I build the infrastructure that keeps AI systems running when things go wrong.
 
-**Backend systems** that route, retry, and recover automatically.  
-**LLM gateways** with smart provider switching, caching, and live observability.  
-**Low-level experiments** — neural nets from scratch on Android with no frameworks. Zero cheating. 🧠
+LLM providers fail.  
+Requests get rate-limited.  
+Latency spikes.  
+Models become unavailable.
+
+**That's the layer I'm interested in.**
+
+I build systems around AI that handle failure instead of pretending it doesn't exist:
+
+- ⚡ Intelligent gateways and provider routing
+- 🛡️ Automatic failover and resilience
+- 🚦 Rate limiting, retries and circuit breakers
+- 📦 Response caching and streaming
+- 📊 Observability and infrastructure metrics
+- 🤖 Experiments with agents and local AI
+- 🧠 Low-level machine learning from scratch
+
+> **If it breaks, I build a layer around it.**
+
+Currently focused on **AI Infrastructure**, **LLM Routing**, **Resilience Engineering**, and **Agent Systems**.
 
 *Bug manufacturer 🐛 · Professional bug exterminator 🔨 · Occasional Rust compiler argument loser 🦀*
 
-Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineering**, and **Agent Systems**.
+---
+
+## ⚙️ What I Work With
+
+**Languages**  
+`Go` · `Rust` · `Python` · `C` · `JavaScript`
+
+**AI / LLM**  
+`LLM Gateways` · `AI Agents` · `Embeddings` · `Semantic Search` · `LLM Streaming`
+
+**Infrastructure**  
+`Docker` · `Linux` · `Prometheus` · `OpenTelemetry` · `Redis` · `REST APIs`
+
+**Exploring**  
+`Distributed Systems` · `Provider Routing` · `Circuit Breakers` · `Observability` · `Local AI`
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-<div align="center">
+### 🛡️ SentinelFlow
 
-| 🧠 Languages | ⚙️ AI / LLM | 🏗️ Infra |
-|:---:|:---:|:---:|
-| 
+**AI Gateway · Failover · Resilience**
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+An intelligent proxy designed to sit between AI applications and model providers.
 
- 
+It handles provider failover, smart routing, rate limiting, caching and observability.
 
-![Rust](https://img.shields.io/badge/Rust-CE4A17?style=flat-square&logo=rust&logoColor=white)
+**Stack:** `Go` `HTTP` `Prometheus` `YAML` `OpenAI-compatible APIs`
 
- 
+**Core features**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+- 🔄 Provider failover
+- 🎯 Smart routing
+- 🚦 Rate limiting
+- 💾 Response caching
+- 📡 Prometheus metrics
+- 📊 Live dashboard
+- 🔁 Retry policies
+- 🏥 Health checks
 
- 
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-
- 
-
-![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
- | 
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-
- 
-
-![Anthropic](https://img.shields.io/badge/Anthropic-CC785C?style=flat-square&logoColor=white)
-
- 
-
-![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logoColor=white)
-
- 
-
-![Agents](https://img.shields.io/badge/AI%20Agents-22C55E?style=flat-square&logoColor=white)
-
- | 
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-
- 
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
- 
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
- 
-
-![REST](https://img.shields.io/badge/REST-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
- |
-
-**🧪 Exploring →** 
-
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square)
-
- 
-
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
- 
-
-![Circuit Breakers](https://img.shields.io/badge/Circuit%20Breakers-F59E0B?style=flat-square)
-
- 
-
-![LLM Streaming](https://img.shields.io/badge/LLM%20Streaming-22C55E?style=flat-square)
-
-
-
-</div>
-
-
+<a href="https://github.com/lecodev-26/sentinelflow">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
-## 📊 GitHub Stats
+### 🧠 Cerebro Zero
 
-<div align="center">
+**Neural Networks · From Scratch · Android**
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=lecodev-26&show_icons=true&theme=transparent&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&border_color=30363d&ring_color=00d4ff" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lecodev-26&layout=compact&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&langs_count=8" />
+An experiment focused on understanding AI from the inside instead of hiding everything behind frameworks.
 
-</div>
+Built from an Android phone using **Python + NumPy + Termux**.
 
-<div align="center">
+**No PyTorch. No TensorFlow. No shortcuts.**
 
-[
+**Stack:** `Python` `NumPy` `Android` `Termux`
 
-![GitHub Streak](https://streak-stats.demolab.com?user=lecodev-26&theme=transparent&background=0d1117&border=30363d&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)
+**Experiments**
 
-](https://git.io/streak-stats)
+- 🧮 Neural networks from scratch
+- 👁️ Vision experiments
+- 🧠 Memory systems
+- 🎙️ Voice experiments
+- 🤖 Agent experiments
+- ⚙️ Optimization and training
 
-</div>
-
----
-
-## 🚀 Projects
-
-### 🛡️ sentinelflow
-> Intelligent gateway/proxy for AI APIs — failover, rate limiting, caching, smart routing and Prometheus metrics. Built in Go.
-
-**Stack:** `Go` · `HTTP` · `Prometheus` · `YAML` · `OpenAI-compatible APIs`
-
-| ✅ Shipped | 🔄 In progress | 📋 Next |
-|:---|:---|:---|
-| Provider failover | Provider abstraction | OpenTelemetry |
-| Rate limiting | Streaming support | Circuit breakers |
-| Response caching | Retry policies | Redis integration |
-| Prometheus metrics | Health checks | Smart routing v2 |
-| Live dashboard | | Multi-tenancy |
-
-[
-
-![sentinelflow](https://github-readme-stats.vercel.app/api/pin/?username=lecodev-26&repo=sentinelflow&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
-
-](https://github.com/lecodev-26/sentinelflow)
+<a href="https://github.com/lecodev-26/cerebro-zero">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
-### 🧠 cerebro-zero
-> Neural networks, vision, memory, voice — all from scratch on an Android phone with Python and NumPy. No frameworks. No shortcuts.
+### 🔍 Semcode Search
 
-**Stack:** `Python` · `NumPy` · `Termux` · `Android`
+**Semantic Code Search · Local AI Embeddings**
 
-Built entirely on mobile. Everything hand-coded. The goal: understand what actually happens inside a neural net, not just call `.fit()`.
+A code search engine focused on **meaning instead of keywords**.
 
-[
+> Search for what the code does, not just what the code is called.
 
-![cerebro-zero](https://github-readme-stats.vercel.app/api/pin/?username=lecodev-26&repo=cerebro-zero&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
+**Stack:** `Rust` `AI Embeddings` `Semantic Search`
 
-](https://github.com/lecodev-26/cerebro-zero)
-
----
-
-### 🔍 semcode-search
-> Semantic code search engine powered by local AI embeddings. Find code by meaning, not just keywords.
-
-**Stack:** `Rust` · `AI Embeddings` · `Semantic Search`
-
-[
-
-![semcode-search](https://github-readme-stats.vercel.app/api/pin/?username=lecodev-26&repo=semcode-search&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
-
-](https://github.com/lecodev-26/semcode-search)
+<a href="https://github.com/lecodev-26/semcode-search">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
-### 🌩️ nuvora
-> Python project — stealth mode. Details coming soon.
+### 🌩️ Nuvora
 
-[
+**Experimental Python Project**
 
-![nuvora](https://github-readme-stats.vercel.app/api/pin/?username=lecodev-26&repo=nuvora&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
+A project currently under development.
 
-](https://github.com/lecodev-26/nuvora)
+Details coming when it's ready.
+
+**Status:** `STEALTH`
+
+<a href="https://github.com/lecodev-26/nuvora">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
-### ⚡ omega
-> C project. Low-level, raw, and fast. Because sometimes Go is too high-level.
+### ⚡ Omega
 
-[
+**Low-Level Systems · C**
 
-![omega](https://github-readme-stats.vercel.app/api/pin/?username=lecodev-26&repo=omega&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
+A low-level C project focused on keeping things simple, raw and fast.
 
-](https://github.com/lecodev-26/omega)
+Because sometimes Go is just too high-level.
+
+**Stack:** `C` `Systems Programming` `Low Level`
+
+<a href="https://github.com/lecodev-26/omega">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
 ### 🔧 AXIOMSYSTEMS2
-> Rust systems project under Axiom Systems Tech.
 
-[
+**Rust · Systems Engineering**
 
-![AXIOMSYSTEMS2](https://github-readme-stats.vercel.app/api/pin/?username=axiom-systemstech&repo=AXIOMSYSTEMS2&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&icon_color=00d4ff)
+A Rust systems project under Axiom Systems Tech.
 
-](https://github.com/axiom-systemstech/AXIOMSYSTEMS2)
+**Stack:** `Rust` `Systems` `Engineering`
+
+<a href="https://github.com/axiom-systemstech/AXIOMSYSTEMS2">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
-## 🐍 Contribution Snake
+## 🔬 Currently Building
+
+| Project | Focus | Status |
+|:--|:--|:--:|
+| 🛡️ **SentinelFlow** | AI gateways · failover · routing | 🟢 Active |
+| 🧠 **Cerebro Zero** | Neural networks · agents · AI from scratch | 🟡 Experimental |
+| 🔍 **Semcode Search** | Semantic code intelligence | 🟡 Building |
+| 🌩️ **Nuvora** | Python project | 🔒 Stealth |
+
+---
+
+## 🧭 What I'm Interested In
+
+```text
+AI Infrastructure
+│
+├── LLM Gateways
+├── Provider Failover
+├── Smart Routing
+├── Rate Limiting
+├── Caching
+├── Observability
+│
+└── Agent Systems
+    ├── Tool Use
+    ├── Memory
+    ├── Reasoning
+    └── Reliability
+```
+
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
 
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=lecodev-26&show_icons=true&hide_border=true&theme=transparent&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=8B949E&ring_color=00D4FF&cache_seconds=1800" />
 
-
-![snake](https://raw.githubusercontent.com/lecodev-26/lecodev-26/output/github-contribution-grid-snake-dark.svg)
-
-
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lecodev-26&layout=compact&hide_border=true&theme=transparent&bg_color=0D1117&title_color=00D4FF&text_color=8B949E&langs_count=8&cache_seconds=1800" />
 
 </div>
 
 ---
 
-### 💬 Quote I build by
+## 💬 The Rule
 
-> *"Make it work, make it right, make it fast — in that order."*
+> **"Make it work, make it right, make it fast — in that order."**
 
-### 🤝 Let's build something
+---
 
-Open to collabs on AI infrastructure, LLM tooling, resilience engineering, or anything that breaks at 3am and someone needs to fix it.
+## 🤝 Let's Build Something
+
+I'm open to collaborations around:
+
+**AI infrastructure · LLM tooling · backend systems · resilience engineering · low-level experiments**
+
+If you're building something that needs to survive production — or something that simply refuses to work at 3am — I'm probably interested.
 
 <div align="center">
 
-[
+<a href="mailto:axiomsystemsechepares@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-axiomsystemsechepares%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
-![Email](https://img.shields.io/badge/Say%20Hi-lecodev26%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)
+&nbsp;
 
-](mailto:lecodev26@gmail.com)
-[
+<a href="https://github.com/lecodev-26">
+<img src="https://img.shields.io/badge/GITHUB-@lecodev--26-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-![GitHub](https://img.shields.io/badge/Follow-%40lecodev--26-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
-
-](https://github.com/lecodev-26)
-
-</div>
+<br><br>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20&height=150&section=footer&text=Thanks%20for%20scrolling!%20%F0%9F%91%BE&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" />
 
-<div align="center">⭐ From <a href="https://github.com/lecodev-26">lecodev</a></div>
+<br>
+
+⭐ From <a href="https://github.com/lecodev-26">lecodev</a>
+
+</div>
