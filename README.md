@@ -12,17 +12,17 @@
 
 
 
-![💻 role](https://img.shields.io/badge/%F0%9F%92%BB%20role-AI%20Infrastructure%20%C3%97%20Backend%20Dev-0D1117?style=for-the-badge&labelColor=0D1117)
+![role](https://img.shields.io/badge/%F0%9F%92%BB%20role-AI%20Infrastructure%20%C3%97%20Backend%20Dev-0D1117?style=for-the-badge&labelColor=0D1117)
 
 
 
 
-![🔧 stack](https://img.shields.io/badge/%F0%9F%94%A7%20stack-Go%20%C2%B7%20Rust%20%C2%B7%20Python%20%C2%B7%20C-0D1117?style=for-the-badge&labelColor=161B22)
+![stack](https://img.shields.io/badge/%F0%9F%94%A7%20stack-Go%20%C2%B7%20Rust%20%C2%B7%20Python%20%C2%B7%20C-0D1117?style=for-the-badge&labelColor=161B22)
 
 
 
 
-![⚡ status](https://img.shields.io/badge/%E2%9A%A1%20status-Building%20in%20public-22C55E?style=for-the-badge&labelColor=0D1117)
+![status](https://img.shields.io/badge/%E2%9A%A1%20status-Building%20in%20public-22C55E?style=for-the-badge&labelColor=0D1117)
 
 
 
@@ -60,11 +60,7 @@ When an LLM provider goes down, slows to a crawl, or hits a rate limit, most app
 
 Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineering**, and **Agent Systems**.
 
-
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,20&height=3)
-
-
+---
 
 ## 🛠️ Tech Stack
 
@@ -74,56 +70,47 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-
-
+ 
 
 ![Rust](https://img.shields.io/badge/Rust-CE4A17?style=for-the-badge&logo=rust&logoColor=white)
 
-
-
+ 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-
-
+ 
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-
-
+ 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-
-
+ 
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
 
-**⚙️ AI / LLM Ecosystem**
+**⚙️ AI / LLM**
 
 
 
 ![OpenAI](https://img.shields.io/badge/OpenAI%20APIs-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-
-
+ 
 
 ![Anthropic](https://img.shields.io/badge/Anthropic%20APIs-CC785C?style=for-the-badge&logoColor=white)
 
-
-
+ 
 
 ![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logoColor=white)
 
-
-
+ 
 
 ![LLM Engineering](https://img.shields.io/badge/LLM%20Engineering-6E56CF?style=for-the-badge&logo=probot&logoColor=white)
 
-
-
+ 
 
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-22C55E?style=for-the-badge&logoColor=white)
 
@@ -135,23 +122,19 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
-
-
+ 
 
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+ 
 
+![HTTP](https://img.shields.io/badge/HTTP%20Proxy-0D1117?style=for-the-badge&logo=nginx&logoColor=white)
 
-
-![HTTP](https://img.shields.io/badge/HTTP%20%2F%20Proxy-0D1117?style=for-the-badge&logo=nginx&logoColor=white)
-
-
-
+ 
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-
-
+ 
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -161,37 +144,29 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 
 
-![OpenTelemetry](https://img.shields.io/badge/✅%20OpenTelemetry-425CC7?style=for-the-badge&labelColor=0D1117)
+![OpenTelemetry](https://img.shields.io/badge/%E2%9C%85%20OpenTelemetry-425CC7?style=for-the-badge&labelColor=0D1117)
+
+ 
+
+![Redis](https://img.shields.io/badge/%F0%9F%9A%80%20Redis-DC382D?style=for-the-badge&labelColor=0D1117)
+
+ 
+
+![Circuit Breakers](https://img.shields.io/badge/%F0%9F%94%84%20Circuit%20Breakers-F59E0B?style=for-the-badge&labelColor=0D1117)
+
+ 
+
+![LLM Streaming](https://img.shields.io/badge/%F0%9F%93%A1%20LLM%20Streaming-22C55E?style=for-the-badge&labelColor=0D1117)
 
 
 
-
-![Redis](https://img.shields.io/badge/🚀%20Redis-DC382D?style=for-the-badge&labelColor=0D1117)
-
-
-
-
-![Circuit Breakers](https://img.shields.io/badge/🔄%20Circuit%20Breakers-F59E0B?style=for-the-badge&labelColor=0D1117)
-
-
-
-
-![Streaming](https://img.shields.io/badge/📡%20LLM%20Streaming-22C55E?style=for-the-badge&labelColor=0D1117)
-
-
-
-
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,20&height=3)
-
-
+---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=lecodev-26&show_icons=true&theme=transparent&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&border_color=30363d&ring_color=00d4ff" />
-
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lecodev-26&layout=compact&theme=transparent&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&border_color=30363d&langs_count=8" />
 
 </div>
@@ -206,11 +181,7 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 </div>
 
-
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,20&height=3)
-
-
+---
 
 ## 🚀 Projects
 
@@ -240,7 +211,7 @@ Currently deep in **AI Infrastructure**, **LLM Routing**, **Resilience Engineeri
 
 **Stack:** `Python` · `NumPy` · `Termux` · `Android`
 
-Built entirely on mobile. Everything hand-coded. The goal was simple: understand what actually happens inside a neural net, not just call `.fit()`.
+Built entirely on mobile. Everything hand-coded. The goal: understand what actually happens inside a neural net, not just call `.fit()`.
 
 [
 
@@ -285,7 +256,7 @@ Built entirely on mobile. Everything hand-coded. The goal was simple: understand
 
 ---
 
-### 🔧 axiom-systemstech / AXIOMSYSTEMS2
+### 🔧 AXIOMSYSTEMS2
 > Rust systems project under Axiom Systems Tech.
 
 [
@@ -294,13 +265,11 @@ Built entirely on mobile. Everything hand-coded. The goal was simple: understand
 
 ](https://github.com/axiom-systemstech/AXIOMSYSTEMS2)
 
-
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,20&height=3)
-
-
+---
 
 ## 🐍 Contribution Snake
+
+<div align="center">
 
 
 
@@ -308,11 +277,9 @@ Built entirely on mobile. Everything hand-coded. The goal was simple: understand
 
 
 
+</div>
 
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,20&height=3)
-
-
+---
 
 ### 💬 Quote I build by
 
