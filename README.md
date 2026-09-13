@@ -237,11 +237,7 @@ A Rust systems project under Axiom Systems Tech.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lecodev-26/lecodev-26/output/github-contribution-grid-snake-dark.svg" width="95%" alt="GitHub contribution snake" />
-
-</div>
-
-> **Snake setup:** this image requires a GitHub Action in the profile repository. If the Action has not generated the `output` branch/file yet, this section will not display.
+<img src="https://raw.githubusercontent.com/lecodev-26/lecodev-26/gh-pages/github-contribution-grid-snake-dark.svg" width="95%" alt="GitHub contribution snake" />
 
 ---
 
