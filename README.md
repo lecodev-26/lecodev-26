@@ -6,6 +6,21 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=00D4FF&center=true&vCenter=true&width=720&height=55&lines=Building+resilient+AI+infrastructure+%F0%9F%9B%A1%EF%B8%8F;LLM+gateways+that+don%27t+fall+over+at+2am;Go+%7C+Rust+%7C+Python+%7C+C;If+it+breaks%2C+I+build+a+layer+around+it" />
 </a>
 
+## 🌱 Open Source Contributions
+
+### Pull Requests
+
+- [firstcontributions/first-contributions#124856](https://github.com/firstcontributions/first-contributions/pull/124856) — ✅ Merged · Added contributor entry
+
+### Issues
+
+- [astral-sh/uv#21643](https://github.com/astral-sh/uv/issues/21643) — fix: avoid panic on missing lockfile (code)
+- [Basekick-Labs/arc#768](https://github.com/Basekick-Labs/arc/issues/768) — fix: nil check on dispatch handler (code)
+- [lunargate-ai/gateway#5](https://github.com/lunargate-ai/gateway/issues/5) — docs: circuit breakers config
+- [lunargate-ai/gateway#6](https://github.com/lunargate-ai/gateway/issues/6) — feat: DeepSeek provider support
+- [Ammar0144/ai#1](https://github.com/Ammar0144/ai/issues/1) — docs: IP rate limiting
+
+
 <br>
 
 <strong>AI INFRASTRUCTURE · BACKEND · SYSTEMS</strong>
