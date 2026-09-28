@@ -2,9 +2,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20&height=210&section=header&text=lecodev&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Infrastructure%20%E2%80%A2%20Go%20%E2%80%A2%20LLM%20Gateways%20%E2%80%A2%20Resilience&descAlignY=60&descSize=18&descColor=aaaaaa&animation=fadeIn" />
 
-Ingeniero+%F0%9F%9B%A1%EF%B8%8F;LLM+gateways+that+don%27t+fall+over+at+2am;Go+%7C+Rust+%7C+Python+%7C+C;If+it+breaks%2C+I+build+a+layer+around+it" />
-</a>
-
 ## 🌱 Open Source Contributions
 
 ### Merged Pull Requests
