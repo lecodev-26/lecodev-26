@@ -111,36 +111,6 @@ A **from-scratch cognitive AI system** built without PyTorch or TensorFlow, cove
 
 ---
 
-### 🦀 MEVDAN
-
-**Local-First AI Work Runtime · Agents · Workflows · Rust**
-
-An open-source, **local-first AI Work Runtime** designed to keep the work—not a specific model, chatbot, or provider—at the center. It models goals, requirements, tasks, actions, artifacts, evidence, verification, decisions, checkpoints, permissions, and agent workflows.
-
-**Stack:** `Rust` `SQLite` `Git` `MCP` `AI Agents`
-
-- 🤖 Model- and provider-agnostic agent runtime
-- 🕸️ Work graph for goals, tasks, artifacts and evidence
-- 🏠 Local-first execution and project state
-- 🔌 MCP and multi-provider architecture
-- 🧪 Verification, checkpoints and controlled execution
-
-<a href="https://github.com/lecodev-26/mevdan"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-
----
-
-### 🔍 Semcode Search
-
-**Semantic Code Search · AI Embeddings · Rust · Developer Tools**
-
-A fast semantic code-search engine and developer tool for searching code by **meaning as well as text**. It includes AI embeddings, caching, advanced filtering, parallel indexing, TUI/GUI tooling, REST API capabilities, editor integrations, and Termux support.
-
-**Stack:** `Rust` `Embeddings` `Semantic Search` `TUI` `Tauri` `Axum`
-
-<a href="https://github.com/lecodev-26/semcode-search"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-
----
-
 ### 🌩️ Nuvora
 
 **Python · Experimental AI / Software Project**
@@ -153,53 +123,12 @@ An active experimental Python project in the portfolio. Its implementation is in
 
 ---
 
-### ⚡ OMEGA
-
-**Low-Level Systems · Microkernel Research · C · AArch64**
-
-A systems research project exploring a **microkernel architecture** with capabilities, isolation, explicit IPC, modular services, and verifiability. The current prototype runs in **QEMU virt aarch64**; hardware support is not claimed.
-
-**Stack:** `C` `AArch64` `QEMU` `Microkernel` `IPC` `Capabilities`
-
-<a href="https://github.com/lecodev-26/omega"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-
----
-
-### 📱 REVIQO
-
-**Android Maintenance Management · Kotlin · Jetpack Compose · Offline-First**
-
-A mobile Android application for managing **customers, equipment, scheduled maintenance, alerts, photos, and CSV exports**. It is designed around privacy and local data: no backend, no accounts, and no analytics.
-
-**Stack:** `Kotlin` `Jetpack Compose` `Material 3` `Room` `WorkManager` `Android`
-
-<a href="https://github.com/lecodev-26/reviqo"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-
----
-
-### 🧰 Markdown AI Tools
-
-**AI Workflow Tools · Markdown · Developer Productivity · JavaScript**
-
-A browser-based toolkit for turning messy AI-generated text into clean Markdown tables and structured content. Designed for **ChatGPT / Claude workflows, GitHub, Notion, Obsidian, prompt engineering, and privacy-first client-side processing**.
-
-**Stack:** `JavaScript` `Next.js` `React` `Tailwind CSS` `Vercel`
-
-<a href="https://github.com/lecodev-26/markdown-ai-tools"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-
----
-
 ## 🔬 Currently Building
 
 | Project | Focus | Status |
 |:--|:--|:--:|
 | 🛡️ **SentinelFlow** | AI gateway · routing · failover · observability | 🟢 Active |
 | 🧠 **Cerebro Zero** | Cognitive agents · ML from scratch · memory · reasoning | 🟢 V4 complete |
-| 🦀 **MEVDAN** | Local-first AI work runtime · agents · workflows | 🟢 Active |
-| 🔍 **Semcode Search** | Semantic code intelligence · embeddings | 🟢 Active |
-| ⚡ **OMEGA** | Microkernel · IPC · capabilities · AArch64 research | 🟡 Research |
-| 📱 **REVIQO** | Android maintenance management · offline-first | 🟢 Released |
-| 🧰 **Markdown AI Tools** | AI workflow · Markdown tooling | 🟢 Public |
 | 🌩️ **Nuvora** | Experimental Python project | 🟡 Evolving |
 
 ---
