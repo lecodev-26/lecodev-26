@@ -123,6 +123,24 @@ An active experimental Python project in the portfolio. Its implementation is in
 
 ---
 
+### 🧞 Genie
+
+**AI Guessing Game · Akinator-style · AI Skill**
+
+A lightweight AI skill that turns a text-based AI into an **Akinator-style guessing game**. Think of a character, animal, movie, object, place, or anything else, answer adaptive questions, and Genie tries to figure it out.
+
+**Stack:** `Markdown` `AI Skills` `MCP`
+
+- 🧠 Adaptive questions based on previous answers
+- 🤔 Handles uncertainty such as "I don't know" and "maybe"
+- 🎯 Only makes a guess when it has enough evidence
+- 🔄 Supports restarting and playing multiple rounds
+- 🌐 Compatible with ChatGPT, Claude, Gemini and other AI clients
+
+<a href="https://github.com/lecodev-26/genie"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-00D4FF?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+---
+
 ## 🔬 Currently Building
 
 | Project | Focus | Status |
