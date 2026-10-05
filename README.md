@@ -6,7 +6,7 @@
 
 ### Merged Pull Requests
 
-- [Basekick-Labs/arc#769](https://github.com/Basekick-Labs/arc/pull/769) —
+** [Basekick-Labs/arc](https://github.com/Basekick-Labs/arc) ** 
 
 <strong>AI INFRASTRUCTURE · BACKEND · SYSTEMS</strong>
 
