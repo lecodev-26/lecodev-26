@@ -69,28 +69,10 @@ Routing, provider failover, policy enforcement, AI FinOps, security, observabili
 <img src="https://img.shields.io/badge/EXPLORE-0f766e?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-</td>
-<td width="50%" valign="top">
-
-### 🧠 Cerebro Zero
-
-**Cognitive AI / Model Runtime**
-
-An open-source cognitive AI platform built around a unified runtime, memory, planning, tools, security, APIs and a reproducible path toward its own trained language model.
-
-**Python · NumPy · Transformers · RL · Termux**
-
-<a href="https://github.com/lecodev-26/cerebro-zero">
-<img src="https://img.shields.io/badge/EXPLORE-2563eb?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</td>
-</tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 NEXUS-Q
+### 🔐 nexus-q
 
 **Post-Quantum Security Engine**
 
@@ -125,7 +107,7 @@ It also includes a minimal remote MCP server for compatible AI clients.
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ AXIOM
+### ⚙️ axiom
 
 **Universal Programming Language & Systems Ecosystem**
 
