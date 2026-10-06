@@ -9,7 +9,7 @@
 <a href="https://github.com/lecodev-26">
 <img src="https://img.shields.io/badge/GitHub-lecodev--26-0f172a?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="mailto:axiomsystemsechepares@gmail.com">
+<a href="mailto:lecodevv@gmail.com">
 <img src="https://img.shields.io/badge/Contact-Email-0f766e?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
@@ -231,7 +231,7 @@ If you're building something technically ambitious, I'm interested.
 
 <div align="center">
 
-<a href="mailto:axiomsystemsechepares@gmail.com">
+<a href="mailto:lecodevv@gmail.com">
 <img src="https://img.shields.io/badge/EMAIL-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
