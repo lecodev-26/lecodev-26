@@ -121,6 +121,24 @@ It also includes a minimal remote MCP server for compatible AI clients.
 
 </td>
 </tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ AXIOM
+
+**Universal Programming Language & Systems Ecosystem**
+
+A general-purpose programming language and technology ecosystem built around a small visible syntax and a deep semantic model, with a long-term path toward its own compiler, runtime, ABI and self-hosting toolchain.
+
+**Python · Rust · Compiler · Runtime · Systems**
+
+<a href="https://github.com/lecodev-26/axiom">
+<img src="https://img.shields.io/badge/EXPLORE-0f766e?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
 </table>
 
 ---
