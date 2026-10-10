@@ -71,7 +71,7 @@ Rust security infrastructure to protect data, keys and identities: key lifecycle
 - **V4:** architecture-specific performance kernels (Issue #23)
 - **Last activity:** Oct 9, 2026
 
-<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>
+<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://nexus-q-topaz.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="b-site" width="160"></picture></a>
 
 <div align="center">
 
