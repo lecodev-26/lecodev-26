@@ -2,7 +2,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg"><img src="assets/light/hero.svg" alt="LECODEV BUILDS · Software, infrastructure and backend · Barcelona" width="100%"></picture>
 
-<a href="https://lecodev-portafolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-web.svg"><img src="assets/light/b-web.svg" alt="Live portfolio" width="144"></picture></a>&nbsp;<a href="https://github.com/lecodev-26?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repos.svg"><img src="assets/light/b-repos.svg" alt="Repositories" width="132"></picture></a>&nbsp;<a href="mailto:lecodevv@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-mail.svg"><img src="assets/light/b-mail.svg" alt="Email me" width="106"></picture></a>&nbsp;<a href="https://github.com/Basekick-Labs/arc/pulls?q=is%3Apr+author%3Alecodev-26+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arcprs.svg"><img src="assets/light/b-arcprs.svg" alt="My PRs in Arc" width="141"></picture></a>
+<a href="https://lecodev-portafolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-web.svg"><img src="assets/light/b-web.svg" alt="Live portfolio" width="144"></picture></a>&nbsp;<a href="https://github.com/lecodev-26?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repos.svg"><img src="assets/light/b-repos.svg" alt="Repositories" width="132"></picture></a>&nbsp;<a href="mailto:lecodev@outlook.es"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-mail.svg"><img src="assets/light/b-mail.svg" alt="Email me" width="106"></picture></a>&nbsp;<a href="https://github.com/Basekick-Labs/arc/pulls?q=is%3Apr+author%3Alecodev-26+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arcprs.svg"><img src="assets/light/b-arcprs.svg" alt="My PRs in Arc" width="141"></picture></a>
 
 **Software, infrastructure and backend engineer in Barcelona.**<br>I build the machinery behind the product: AI gateways, post-quantum cryptography and systems languages.
 
@@ -228,7 +228,7 @@ These 8 PRs are still under review or being consolidated. I do not count them as
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-hablemos.svg"><img src="assets/light/h-hablemos.svg" alt="Let's talk" width="100%"></picture>
 
-<a href="mailto:lecodevv@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-email2.svg"><img src="assets/light/b-email2.svg" alt="lecodevv@gmail.com" width="201"></picture></a>
+<a href="mailto:lecodev@outlook.es"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-email2.svg"><img src="assets/light/b-email2.svg" alt="lecodev@outlook.es" width="201"></picture></a>
 
 <sub>lecodev · Barcelona · © 2026</sub>
 
