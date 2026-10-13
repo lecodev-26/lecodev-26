@@ -130,11 +130,11 @@ An experimental project with a Python backend and a JavaScript interface, deploy
 
 </div>
 
-I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have 6 PRs merged into `main`, covering the WAL, file replication, ingestion, the tiering API and configuration.
+I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have 7 PRs merged into `main`, covering the WAL, file replication, ingestion, retention policies, the tiering API and configuration.
 
 `Go` `DuckDB` `WAL` `Parquet` `Ingestion`
 
-- **PRs merged into main:** 6
+- **PRs merged into main:** 7
 - **Last merge:** Oct 13, 2026
 
 <a href="https://github.com/Basekick-Labs/arc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arc.svg"><img src="assets/light/b-arc.svg" alt="b-arc" width="103"></picture></a>
@@ -149,7 +149,7 @@ Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="6 PRs merged, 34 files changed, +1,843 lines, 5 areas of the codebase" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="7 PRs merged, 34 files changed, +1,843 lines, 5 areas of the codebase" width="100%"></picture>
 
 </div>
 
@@ -158,6 +158,12 @@ Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in 
 **Merged into main** · Oct 13, 2026 · +12 −6 · 2 files · Closes #1195
 
 Removed `license.enabled` from the config struct, loader and defaults because it was read but never used. Enterprise licensing continues to be driven by `license.file_path` or `license.key`; any leftover `license.enabled` setting or `ARC_LICENSE_ENABLED` environment variable remains ignored, so this is a cleanup with no behavior change.
+
+#### [#1053](https://github.com/Basekick-Labs/arc/pull/1053) · `feat(retention): apply policies to cold tier`
+
+**Merged into main** · Retention · Cold-tier storage
+
+Retention policies now apply to data in the cold tier as well, bringing cold-tier lifecycle handling in line with Arc's retention rules instead of limiting policy enforcement to the hot tier.
 
 #### [#1073](https://github.com/Basekick-Labs/arc/pull/1073) · `fix(filereplication): make rewritten files immutable`
 
