@@ -149,7 +149,7 @@ Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="5 PRs merged, 32 files changed, +1,831 lines, 8 PRs open" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="5 PRs merged, 32 files changed, +1,831 lines, 4 areas of the codebase" width="100%"></picture>
 
 </div>
 
@@ -183,20 +183,6 @@ Closes the remaining gap in WAL purging. It tracks pending identities through du
 
 The fallback that coerces numeric values into `host_<num>` strings is intentional and stays, but it hid a sign of misconfigured clients. I added a debug-level log when it fires, so the hot ingest path is not flooded, and two test cases (float and boolean host) that fall through to the default branch. It went through three review rounds and the merge added me to the project contributors list.
 
-#### Open, not merged yet
-
-These 8 PRs are still under review or being consolidated. I do not count them as merged contributions.
-
-| PR | Title | Status |
-|---|---|---|
-| [#1185](https://github.com/Basekick-Labs/arc/pull/1185) | `fix: separate WAL and reconciliation identities` | Open · Oct 9 |
-| [#1074](https://github.com/Basekick-Labs/arc/pull/1074) | `fix(cluster): keep replicated batches out of manifest registration` | Open · closes #888 · a reviewer validated the tests with `-race` |
-| [#1059](https://github.com/Basekick-Labs/arc/pull/1059) | `feat(wal): apply disk pressure backpressure` | Reopened by the maintainer: it will be consolidated on top of #1115 with credit for my work |
-| [#1058](https://github.com/Basekick-Labs/arc/pull/1058) | `fix(api): reject invalid execution limits` | Open |
-| [#1057](https://github.com/Basekick-Labs/arc/pull/1057) | `feat(metrics): expose queued and inflight ingest records` | Open |
-| [#1054](https://github.com/Basekick-Labs/arc/pull/1054) | `fix(filereplication): verify snapshot catch-up content` | Open · verifies SHA-256 on catch-up |
-| [#1053](https://github.com/Basekick-Labs/arc/pull/1053) | `feat(retention): apply policies to cold tier` | Open |
-| [#1052](https://github.com/Basekick-Labs/arc/pull/1052) | `feat(tiering): support filtered manual migrations` | Open · filters by database and measurement |
 
 <sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 9, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051 and #1073 were merged after 26.09.3, the latest published release.</sub>
 
