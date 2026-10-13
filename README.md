@@ -71,7 +71,7 @@ Rust security infrastructure to protect data, keys and identities: key lifecycle
 - **V4:** architecture-specific performance kernels (Issue #23)
 - **Last activity:** Oct 9, 2026
 
-<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://nexus-q-topaz.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="b-site" width="160"></picture></a>
+<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="b-site" width="160"></picture></a>
 
 <div align="center">
 
@@ -228,7 +228,7 @@ These 8 PRs are still under review or being consolidated. I do not count them as
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-hablemos.svg"><img src="assets/light/h-hablemos.svg" alt="Let's talk" width="100%"></picture>
 
-<a href="mailto:lecodev@outlook.es"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-email2.svg"><img src="assets/light/b-email2.svg" alt="lecodev@outlook.es" width="201"></picture></a>
+<a href="mailto:lecodev@outlook.es"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-email2.svg"><img src="assets/light/b-email2.svg" alt="lecodev@outlook.es" width="193"></picture></a>
 
 <sub>lecodev · Barcelona · © 2026</sub>
 
