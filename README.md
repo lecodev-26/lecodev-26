@@ -130,12 +130,12 @@ An experimental project with a Python backend and a JavaScript interface, deploy
 
 </div>
 
-I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have 5 PRs merged into `main`, touching the WAL, file replication, ingestion and the tiering API.
+I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have 6 PRs merged into `main`, covering the WAL, file replication, ingestion, the tiering API and configuration.
 
 `Go` `DuckDB` `WAL` `Parquet` `Ingestion`
 
-- **PRs merged into main:** 5
-- **Last merge:** Oct 8, 2026
+- **PRs merged into main:** 6
+- **Last merge:** Oct 13, 2026
 
 <a href="https://github.com/Basekick-Labs/arc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arc.svg"><img src="assets/light/b-arc.svg" alt="b-arc" width="103"></picture></a>
 
@@ -149,9 +149,15 @@ Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="5 PRs merged, 32 files changed, +1,831 lines, 4 areas of the codebase" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="6 PRs merged, 34 files changed, +1,843 lines, 5 areas of the codebase" width="100%"></picture>
 
 </div>
+
+#### [#1241](https://github.com/Basekick-Labs/arc/pull/1241) · `fix(config): remove dead license.enabled key`
+
+**Merged into main** · Oct 13, 2026 · +12 −6 · 2 files · Closes #1195
+
+Removed `license.enabled` from the config struct, loader and defaults because it was read but never used. Enterprise licensing continues to be driven by `license.file_path` or `license.key`; any leftover `license.enabled` setting or `ARC_LICENSE_ENABLED` environment variable remains ignored, so this is a cleanup with no behavior change.
 
 #### [#1073](https://github.com/Basekick-Labs/arc/pull/1073) · `fix(filereplication): make rewritten files immutable`
 
@@ -184,7 +190,7 @@ Closes the remaining gap in WAL purging. It tracks pending identities through du
 The fallback that coerces numeric values into `host_<num>` strings is intentional and stays, but it hid a sign of misconfigured clients. I added a debug-level log when it fires, so the hot ingest path is not flooded, and two test cases (float and boolean host) that fall through to the default branch. It went through three review rounds and the merge added me to the project contributors list.
 
 
-<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 9, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051 and #1073 were merged after 26.09.3, the latest published release.</sub>
+<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 13, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073 and #1241 were merged after 26.09.3, the latest published release.</sub>
 
 <div align="center">
 
