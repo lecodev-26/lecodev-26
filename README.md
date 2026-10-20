@@ -22,7 +22,7 @@ I am interested in the layer between software and infrastructure: the part that 
 |---|---|
 | AI gateways and LLM infrastructure | SentinelFlow |
 | Security and cryptographic systems | NEXUS-Q |
-| Languages, compilers and runtimes | AXIOM |
+| Languages, compilers and runtimes | AXIOM · DINAH |
 | Agents, tools and MCP | Genie |
 | Time-series databases | Arc |
 | Local and self-hosted software | Linux · Android · Termux |
@@ -48,7 +48,7 @@ OpenAI-compatible gateway for teams that run several model providers. It brings 
 
 - **Status:** V5.0.1 stable · V6 in development on the `v6` branch
 - **License:** MIT
-- **Last activity:** Oct 7, 2026
+- **Last activity:** Oct 16, 2026
 
 <a href="https://github.com/lecodev-26/sentinelflow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>
 
@@ -68,8 +68,8 @@ Rust security infrastructure to protect data, keys and identities: key lifecycle
 - **V1:** frozen baseline `v1.0.0`
 - **V2:** frozen on `nexusqv2` (`v2.0.0`)
 - **V3:** merged into `main` (PR #45)
-- **V4:** architecture-specific performance kernels (Issue #23)
-- **Last activity:** Oct 9, 2026
+- **V4:** 4.1.0 stable-line release; native backend is experimental and opt-in, with RustCrypto still used by default. V4 performance and hardening work continues.
+- **Last activity:** Oct 20, 2026
 
 <a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="b-site" width="160"></picture></a>
 
@@ -91,6 +91,22 @@ A general-purpose language with a small syntax and a deep semantic model. The lo
 - **Last activity:** Oct 3, 2026
 
 <a href="https://github.com/lecodev-26/axiom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>
+
+<div align="center">
+
+### DINAH · Modular Rust Runtime and Compute Foundation
+
+</div>
+
+DINAH is a pre-alpha, Rust-first foundation for runtime execution, memory, compute, ECS, deterministic simulation and early networking. Core/runtime/memory/compute/ECS foundations, five bounded simulation models, initial blocking TCP wrappers and prediction/reconciliation/replay primitives are implemented. Networking wire encoding and full protocol integration remain unfinished; this is not a production-ready runtime or game engine.
+
+Rust · Runtime · Compute · ECS · Simulation · Networking
+
+- **Status:** pre-alpha · active development
+- **License:** MIT OR Apache-2.0
+- **Last activity:** Oct 19, 2026
+
+<a href="https://github.com/lecodev-26/dinah"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="DINAH repository" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/dinah/blob/main/roadmap.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-release.svg"><img src="assets/light/b-release.svg" alt="DINAH roadmap" width="148"></picture></a>
 
 <div align="center">
 
