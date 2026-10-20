@@ -22,7 +22,8 @@ I am interested in the layer between software and infrastructure: the part that 
 |---|---|
 | AI gateways and LLM infrastructure | SentinelFlow |
 | Security and cryptographic systems | NEXUS-Q |
-| Languages, compilers and runtimes | AXIOM · DINAH |
+| Programming languages and compilers | AXIOM |
+| Runtime, compute and simulation | DINAH |
 | Agents, tools and MCP | Genie |
 | Time-series databases | Arc |
 | Local and self-hosted software | Linux · Android · Termux |
@@ -94,19 +95,22 @@ A general-purpose language with a small syntax and a deep semantic model. The lo
 
 <div align="center">
 
-### DINAH · Modular Rust Runtime and Compute Foundation
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-dinah.svg"><img src="assets/light/r-dinah.svg" alt="DINAH · Modular Rust runtime, compute and simulation foundation" width="100%"></picture>
 
 </div>
 
-DINAH is a pre-alpha, Rust-first foundation for runtime execution, memory, compute, ECS, deterministic simulation and early networking. Core/runtime/memory/compute/ECS foundations, five bounded simulation models, initial blocking TCP wrappers and prediction/reconciliation/replay primitives are implemented. Networking wire encoding and full protocol integration remain unfinished; this is not a production-ready runtime or game engine.
+A Rust-first foundation for runtime execution, memory, compute, ECS, deterministic simulation and early networking. Core/runtime/memory/compute/ECS foundations, five bounded simulation models, initial blocking TCP wrappers and prediction/reconciliation/replay primitives are implemented. Networking wire encoding and full protocol integration remain unfinished; this is not a production-ready runtime or game engine.
 
-Rust · Runtime · Compute · ECS · Simulation · Networking
+`Rust` `Runtime` `Compute` `ECS` `Simulation` `Networking`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-dinah.svg"><img src="assets/light/l-dinah.svg" alt="Rust 100%" width="100%"></picture><br>
+<sub>Rust 100%</sub>
 
 - **Status:** pre-alpha · active development
 - **License:** MIT OR Apache-2.0
 - **Last activity:** Oct 19, 2026
 
-<a href="https://github.com/lecodev-26/dinah"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="DINAH repository" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/dinah/blob/main/roadmap.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-release.svg"><img src="assets/light/b-release.svg" alt="DINAH roadmap" width="148"></picture></a>
+<a href="https://github.com/lecodev-26/dinah"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/dinah/blob/main/roadmap.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-release.svg"><img src="assets/light/b-release.svg" alt="b-release" width="148"></picture></a>
 
 <div align="center">
 
@@ -218,7 +222,7 @@ The fallback that coerces numeric values into `host_<num>` strings is intentiona
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-crono.svg"><img src="assets/light/h-crono.svg" alt="Timeline" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"><img src="assets/light/timeline.svg" alt="Timeline: AXIOM, SentinelFlow, Nuvora, Genie, NEXUS-Q" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"><img src="assets/light/timeline.svg" alt="Timeline: AXIOM, SentinelFlow, Nuvora, Genie, NEXUS-Q; DINAH is listed in the project timeline below" width="100%"></picture>
 
 </div>
 
