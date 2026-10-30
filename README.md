@@ -21,7 +21,7 @@ I am interested in the layer between software and infrastructure: the part that 
 | What I do | Where |
 |---|---|
 | AI gateways and LLM infrastructure | SentinelFlow |
-| Security and cryptographic systems | NEXUS-Q |
+| Security and cryptographic systems | NEXUS-Q · NEXUS-Q Tools |
 | Programming languages and compilers | AXIOM |
 | Runtime, compute and simulation | DINAH |
 | Agents, tools and MCP | Genie |
@@ -59,9 +59,9 @@ OpenAI-compatible gateway for teams that run several model providers. It brings 
 
 </div>
 
-Rust security infrastructure to protect data, keys and identities: key lifecycle, authenticated encryption, credentials, audit, policies and hardware abstraction. It is measured with security CI, benchmarks and a PQC Benchmark Arena against other libraries. No independent audit or certification.
+Rust post-quantum cryptographic security engine for data, keys and identities, with key lifecycle management, authenticated encryption, signatures, credentials, policy enforcement, audit logging and hardware-provider abstractions. The project includes security CI, fuzz targets, documented threat models, benchmarks and a PQC Benchmark Arena. **v4.1.2 is the current release.** It is an audit-ready release, not a production-readiness claim; no independent external audit or FIPS validation is claimed. The native ML-KEM/ML-DSA backend remains experimental and opt-in; RustCrypto is the default path.
 
-`Rust` `ML-KEM-768` `ML-DSA-65` `RISC-V` `Android` `SDKs`
+`Rust` `ML-KEM-768` `ML-DSA-65` `SLH-DSA` `RISC-V` `Android` `SDKs`
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-nexus-q.svg"><img src="assets/light/l-nexus-q.svg" alt="Rust 94% · C 3% · C++ 1% · Go, Shell, PHP, Ruby 2%" width="100%"></picture><br>
 <sub>Rust 94% · C 3% · C++ 1% · Go, Shell, PHP, Ruby 2%</sub>
@@ -69,10 +69,11 @@ Rust security infrastructure to protect data, keys and identities: key lifecycle
 - **V1:** frozen baseline `v1.0.0`
 - **V2:** frozen on `nexusqv2` (`v2.0.0`)
 - **V3:** merged into `main` (PR #45)
-- **V4:** 4.1.0 stable-line release; native backend is experimental and opt-in, with RustCrypto still used by default. V4 performance and hardening work continues.
-- **Last activity:** Oct 20, 2026
+- **V4:** `v4.1.2` current release · Audit-Ready Release · no production-readiness claim, no FIPS validation, external audit pending. Native backend remains experimental and opt-in; RustCrypto is the default.
+- **Companion tools:** 25 independent Rust CLI tools built on the public `nexusq-core` API; all 25 crates are published on crates.io at `0.1.0`.
+- **Last activity:** Oct 28, 2026
 
-<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="b-repo" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="b-site" width="160"></picture></a>
+<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q repository" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/nexus-qtools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q Tools repository" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="NEXUS-Q website" width="160"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/nexus-qtools/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-release.svg"><img src="assets/light/b-release.svg" alt="NEXUS-Q Tools release" width="148"></picture></a>
 
 <div align="center">
 
@@ -150,12 +151,12 @@ An experimental project with a Python backend and a JavaScript interface, deploy
 
 </div>
 
-I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have 7 PRs merged into `main`, covering the WAL, file replication, ingestion, retention policies, the tiering API and configuration.
+I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have **8 PRs merged into `main`**, covering the WAL, file replication, ingestion, retention policies, the tiering API and configuration.
 
 `Go` `DuckDB` `WAL` `Parquet` `Ingestion`
 
-- **PRs merged into main:** 7
-- **Last merge:** Oct 13, 2026
+- **PRs merged into main:** 8
+- **Last merge:** Oct 29, 2026
 
 <a href="https://github.com/Basekick-Labs/arc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arc.svg"><img src="assets/light/b-arc.svg" alt="b-arc" width="103"></picture></a>
 
@@ -165,13 +166,19 @@ I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database 
 
 </div>
 
-Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in Go, with 681 stars. These are my changes that the maintainer has merged into its `main` branch, with the context of each review.
+Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in Go, with 686 stars. These are my changes that the maintainer has merged into its `main` branch, with the context of each review.
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="7 PRs merged, 34 files changed, +1,843 lines, 5 areas of the codebase" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg"><img src="assets/light/stats.svg" alt="8 PRs merged, 52 files changed, +3,237 lines, 5 areas of the codebase" width="100%"></picture>
 
 </div>
+
+#### [#1052](https://github.com/Basekick-Labs/arc/pull/1052) · `feat(tiering): support filtered manual migrations`
+
+**Merged into main** · Oct 29, 2026 · +319 −16 · 7 files
+
+Adds database- and measurement-filtered manual tier migrations, validates the source and destination tiers while keeping the supported direction explicit as hot → cold, and makes `dry_run` report candidate count and bytes without moving files. The scheduled migration path remains unchanged. The PR adds focused coverage for filtered candidates and preview non-mutation; it was merged by the Arc maintainer after review.
 
 #### [#1241](https://github.com/Basekick-Labs/arc/pull/1241) · `fix(config): remove dead license.enabled key`
 
@@ -216,7 +223,7 @@ Closes the remaining gap in WAL purging. It tracks pending identities through du
 The fallback that coerces numeric values into `host_<num>` strings is intentional and stays, but it hid a sign of misconfigured clients. I added a debug-level log when it fires, so the hot ingest path is not flooded, and two test cases (float and boolean host) that fall through to the default branch. It went through three review rounds and the merge added me to the project contributors list.
 
 
-<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 13, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073 and #1241 were merged after 26.09.3, the latest published release.</sub>
+<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 29, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073, #1241 and #1052 were merged after 26.09.3, the latest published release.</sub>
 
 <div align="center">
 
