@@ -55,7 +55,7 @@ OpenAI-compatible gateway for teams that run several model providers. It brings 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-nexus-q.svg"><img src="assets/light/r-nexus-q.svg" alt="NEXUS-Q · Post-quantum security engine" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-nexus-q.svg"><img src="assets/light/r-nexus-q.svg" alt="NEXUS-Q v4.1.2 · Post-quantum security engine" width="100%"></picture>
 
 </div>
 
@@ -68,16 +68,49 @@ Rust post-quantum cryptographic security engine for data, keys and identities, w
 
 - **V1:** frozen baseline `v1.0.0`
 - **V2:** frozen on `nexusqv2` (`v2.0.0`)
-- **V3:** merged into `main` (PR #45)
-- **V4:** `v4.1.2` current release · Audit-Ready Release · no production-readiness claim, no FIPS validation, external audit pending. Native backend remains experimental and opt-in; RustCrypto is the default.
-- **Companion tools:** 25 independent Rust CLI tools built on the public `nexusq-core` API; all 25 crates are published on crates.io at `0.1.0`.
+- **V3:** historical engineering release; the current release line is v4.1.2
+- **V4.1.2:** current release · Audit-Ready Release · no production-readiness claim, no FIPS validation, external audit pending. Native backend remains experimental and opt-in; RustCrypto is the default.
 - **Last activity:** Oct 28, 2026
 
-<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q repository" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/nexus-qtools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q Tools repository" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="NEXUS-Q website" width="160"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/nexus-qtools/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-release.svg"><img src="assets/light/b-release.svg" alt="NEXUS-Q Tools release" width="148"></picture></a>
+### NEXUS-Q Tools · 25 command-line utilities
+
+NEXUS-Q Tools is the companion collection of **25 independent Rust CLI binaries**, each published on crates.io at version `0.1.0`. They are separate, focused utilities built around the public `nexusq-core` API—not a second cryptographic engine. Install only the commands you need with Cargo.
+
+| Category | Tool | Purpose |
+|---|---|---|
+| Diagnostics | [`nq-about`](https://crates.io/crates/nq-about) | Shows suite and Core information |
+| Diagnostics | [`nq-doctor`](https://crates.io/crates/nq-doctor) | Checks the local development environment |
+| Diagnostics | [`nq-env`](https://crates.io/crates/nq-env) | Summarizes OS/runtime details with environment-variable redaction |
+| Diagnostics | [`nq-cache-report`](https://crates.io/crates/nq-cache-report) | Reports cache and build-directory sizes without deleting files |
+| Diagnostics | [`nq-git-audit`](https://crates.io/crates/nq-git-audit) | Summarizes repository and working-tree status read-only |
+| Files & reports | [`nq-hash`](https://crates.io/crates/nq-hash) | Calculates file SHA-256 hashes through Core |
+| Files & reports | [`nq-config-check`](https://crates.io/crates/nq-config-check) | Validates JSON configuration objects and required fields |
+| Files & reports | [`nq-json-check`](https://crates.io/crates/nq-json-check) | Checks JSON syntax in files or standard input |
+| Files & reports | [`nq-log-view`](https://crates.io/crates/nq-log-view) | Filters text logs by level, text and date |
+| Files & reports | [`nq-report`](https://crates.io/crates/nq-report) | Builds Markdown diagnostic reports from text sections |
+| Files & reports | [`nq-diff`](https://crates.io/crates/nq-diff) | Compares file-manifest inventories |
+| Manifests & workspaces | [`nq-manifest`](https://crates.io/crates/nq-manifest) | Creates deterministic file inventories and Core hashes |
+| Manifests & workspaces | [`nq-bundle`](https://crates.io/crates/nq-bundle) | Creates ZIP bundles with a Core SHA-256 manifest |
+| Manifests & workspaces | [`nq-verify-bundle`](https://crates.io/crates/nq-verify-bundle) | Verifies bundle structure and content without extraction |
+| Manifests & workspaces | [`nq-workspace`](https://crates.io/crates/nq-workspace) | Creates and validates a minimal Rust CLI starter |
+| Manifests & workspaces | [`nq-test-runner`](https://crates.io/crates/nq-test-runner) | Runs explicit program/argument arrays without shell interpretation |
+| Integrity & security | [`nq-seal`](https://crates.io/crates/nq-seal) | Creates and verifies SHA-256 integrity manifests |
+| Integrity & security | [`nq-vault`](https://crates.io/crates/nq-vault) | Local content-addressed artifact store; not encrypted storage |
+| Integrity & security | [`nq-sign`](https://crates.io/crates/nq-sign) | Generates Ed25519 keys and verifies detached signatures through Core |
+| Integrity & security | [`nq-policy`](https://crates.io/crates/nq-policy) | Evaluates manifest metadata against JSON policy rules |
+| Integrity & security | [`nq-supply-chain`](https://crates.io/crates/nq-supply-chain) | Reports Cargo.lock dependency, source and checksum metadata offline |
+| Integrity & security | [`nq-secure-backup`](https://crates.io/crates/nq-secure-backup) | Creates, verifies and restores encrypted local backups using Core |
+| Docs & integration | [`nq-release-notes`](https://crates.io/crates/nq-release-notes) | Extracts Markdown changelog sections |
+| Docs & integration | [`nq-doc-audit`](https://crates.io/crates/nq-doc-audit) | Checks Markdown links and required headings |
+| Docs & integration | [`nq-integrate`](https://crates.io/crates/nq-integrate) | Runs an isolated integration diagnostic against public Core APIs |
+
+Install examples: `cargo install nq-hash`, `cargo install nq-doctor`, or `cargo install nq-secure-backup`. See the [25-tool catalogue](https://nexus-q.link/apps/tools), [CLI reference](https://github.com/lecodev-26/nexus-qtools/blob/main/docs/CLI_REFERENCE.md), [installation guide](https://github.com/lecodev-26/nexus-qtools/blob/main/docs/INSTALLATION.md), and [NEXUS-Q Tools repository](https://github.com/lecodev-26/nexus-qtools).
+
+<a href="https://github.com/lecodev-26/nexus-q"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q repository" width="159"></picture></a>&nbsp;<a href="https://github.com/lecodev-26/nexus-qtools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-repo.svg"><img src="assets/light/b-repo.svg" alt="NEXUS-Q Tools repository" width="159"></picture></a>&nbsp;<a href="https://nexus-q.link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-site.svg"><img src="assets/light/b-site.svg" alt="NEXUS-Q website" width="160"></picture></a>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-nexus-q.svg"><img src="assets/light/r-nexus-q.svg" alt="NEXUS-Q Vault · Desktop encrypted file and folder vault" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-nexus-q-vault.svg"><img src="assets/light/r-nexus-q-vault.svg" alt="NEXUS-Q Vault v0.1.0 · Desktop encrypted file and folder vault" width="100%"></picture>
 
 </div>
 
@@ -88,7 +121,7 @@ A cross-platform desktop application for encrypting and decrypting individual fi
 - **Status:** v0.1.0 · early access
 - **Platforms:** Windows (EXE/MSI), macOS (DMG), Linux (DEB/AppImage)
 - **Downloads:** [Latest release and installers](https://github.com/lecodev-26/nexus-q-vault/releases/latest)
-- **Website:** [NEXUS-Q Apps](https://nexus-q.link/apps)
+- **Website:** [NEXUS-Q Vault app page](https://nexus-q.link/apps/vault)
 - **Repository:** [nexus-q-vault](https://github.com/lecodev-26/nexus-q-vault)
 
 
