@@ -72,7 +72,11 @@ Rust post-quantum cryptographic security engine for data, keys and identities, w
 - **V4.1.2:** current release · Audit-Ready Release · no production-readiness claim, no FIPS validation, external audit pending. Native backend remains experimental and opt-in; RustCrypto is the default.
 - **Last activity:** Oct 28, 2026
 
-### NEXUS-Q Tools · 25 command-line utilities
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-tools.svg"><img src="assets/light/h-tools.svg" alt="NEXUS-Q Tools · 25 command-line utilities" width="100%"></picture>
+
+</div>
 
 NEXUS-Q Tools is the companion collection of **25 independent Rust CLI binaries**, each published on crates.io at version `0.1.0`. They are separate, focused utilities built around the public `nexusq-core` API—not a second cryptographic engine. Install only the commands you need with Cargo.
 
