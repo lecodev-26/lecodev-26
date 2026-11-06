@@ -168,12 +168,14 @@ An experimental project with a Python backend and a JavaScript interface, deploy
 
 </div>
 
-I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have **8 PRs merged into `main`**, covering the WAL, file replication, ingestion, retention policies, the tiering API and configuration.
+I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have **8 PRs merged into Arc `main`**, covering the WAL, file replication, ingestion, retention policies, filtered manual tier migrations, the tiering API and configuration, plus **2 additional PRs merged into the Python SDK**.
 
 `Go` `DuckDB` `WAL` `Parquet` `Ingestion`
 
-- **PRs merged into main:** 8
-- **Last merge:** Oct 29, 2026
+- **Arc core PRs merged into main:** 8
+- **Arc Python SDK PRs merged:** 2
+- **Last Arc core merge:** Oct 29, 2026
+- **Last SDK merge:** Nov 5, 2026
 
 <a href="https://github.com/Basekick-Labs/arc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arc.svg"><img src="assets/light/b-arc.svg" alt="b-arc" width="103"></picture></a>
 
@@ -247,7 +249,7 @@ Closes the remaining gap in WAL purging. It tracks pending identities through du
 The fallback that coerces numeric values into `host_<num>` strings is intentional and stays, but it hid a sign of misconfigured clients. I added a debug-level log when it fires, so the hot ingest path is not flooded, and two test cases (float and boolean host) that fall through to the default branch. It went through three review rounds and the merge added me to the project contributors list.
 
 
-<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of October 29, 2026. All merges were done by the project maintainer. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073, #1241 and #1052 were merged after 26.09.3, the latest published release.</sub>
+<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of November 6, 2026. The eight Arc core PRs and two SDK PRs were merged by their respective upstream maintainers. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073, #1241 and #1052 were merged after 26.09.3, the latest published release.</sub>
 
 <div align="center">
 
