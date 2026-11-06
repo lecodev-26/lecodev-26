@@ -77,6 +77,23 @@ Rust post-quantum cryptographic security engine for data, keys and identities, w
 
 <div align="center">
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-nexus-q.svg"><img src="assets/light/r-nexus-q.svg" alt="NEXUS-Q Vault · Desktop encrypted file and folder vault" width="100%"></picture>
+
+</div>
+
+A cross-platform desktop application for encrypting and decrypting individual files and folders, built with **Rust, Tauri 2 and the NEXUS-Q core**. It includes encrypted vault backups and folder-vault manifests, with native file pickers. Early access: the application has not undergone an independent security audit.
+
+`Rust` `Tauri 2` `HTML` `CSS` `JavaScript` `Linux` `Windows` `macOS`
+
+- **Status:** v0.1.0 · early access
+- **Platforms:** Windows (EXE/MSI), macOS (DMG), Linux (DEB/AppImage)
+- **Downloads:** [Latest release and installers](https://github.com/lecodev-26/nexus-q-vault/releases/latest)
+- **Website:** [NEXUS-Q Apps](https://nexus-q.link/apps)
+- **Repository:** [nexus-q-vault](https://github.com/lecodev-26/nexus-q-vault)
+
+
+<div align="center">
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/r-axiom.svg"><img src="assets/light/r-axiom.svg" alt="AXIOM · Programming language and systems ecosystem" width="100%"></picture>
 
 </div>
@@ -167,6 +184,13 @@ I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database 
 </div>
 
 Arc (Basekick Labs) is an AGPL-3.0 licensed SQL time-series database written in Go, with 686 stars. These are my changes that the maintainer has merged into its `main` branch, with the context of each review.
+
+I also contribute to the **Arc Python SDK** (`arc-client-python`). Two additional SDK pull requests have been merged into its `main` branch:
+
+- [#27 · feat(schedulers): expose scheduler status and controls](https://github.com/Basekick-Labs/arc-client-python/pull/27) — adds synchronous and asynchronous scheduler clients, scheduler status, continuous-query schedule reload and an explicitly confirmed retention trigger.
+- [#28 · feat(diagnostics): expose write protocol health and stats](https://github.com/Basekick-Labs/arc-client-python/pull/28) — adds synchronous and asynchronous read-only diagnostics for Line Protocol health/statistics and MessagePack specification/decoder/buffer statistics.
+
+Both changes preserve the server's authentication, authorization and error handling. The SDK tests were added in those PRs but were not run locally; CI is the dynamic validation source.
 
 <div align="center">
 
