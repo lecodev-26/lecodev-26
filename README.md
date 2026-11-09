@@ -205,7 +205,7 @@ An experimental project with a Python backend and a JavaScript interface, deploy
 
 </div>
 
-I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have **8 PRs merged into Arc `main`**, covering the WAL, file replication, ingestion, retention policies, filtered manual tier migrations, the tiering API and configuration, plus **2 additional PRs merged into the Python SDK**.
+I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database written in Go on top of DuckDB, built for high-throughput telemetry, Parquet storage and analytical SQL. I have **8 PRs merged into Arc `main`**, covering the WAL, file replication, ingestion, retention policies, filtered manual tier migrations, the tiering API and configuration, plus **2 additional PRs merged into the Python SDK** and **1 contribution merged into Arc Launchpad**.
 
 `Go` `DuckDB` `WAL` `Parquet` `Ingestion`
 
@@ -213,6 +213,7 @@ I contribute to Arc, by Basekick Labs: an open, SQL-native time-series database 
 - **Arc Python SDK PRs merged:** 2
 - **Last Arc core merge:** Oct 29, 2026
 - **Last SDK merge:** Nov 5, 2026
+- **Last Arc Launchpad merge:** Nov 9, 2026
 
 <a href="https://github.com/Basekick-Labs/arc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-arc.svg"><img src="assets/light/b-arc.svg" alt="b-arc" width="103"></picture></a>
 
@@ -286,7 +287,17 @@ Closes the remaining gap in WAL purging. It tracks pending identities through du
 The fallback that coerces numeric values into `host_<num>` strings is intentional and stays, but it hid a sign of misconfigured clients. I added a debug-level log when it fires, so the hot ingest path is not flooded, and two test cases (float and boolean host) that fall through to the default branch. It went through three review rounds and the merge added me to the project contributors list.
 
 
-<sub>Source: the public PR and release pages of Arc on GitHub and its API, as of November 6, 2026. The eight Arc core PRs and two SDK PRs were merged by their respective upstream maintainers. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073, #1241 and #1052 were merged after 26.09.3, the latest published release.</sub>
+### Arc Launchpad
+
+One additional contribution to the Arc ecosystem web console, merged into the Launchpad repository:
+
+#### [#98](https://github.com/Basekick-Labs/launchpad/pull/98) · `Support MQTT topic mapping rule objects`
+
+**Merged into Launchpad main** · Nov 9, 2026 · +236 −26 · 4 files
+
+Extended MQTT topic mappings to support both legacy topic-to-database strings and structured rules with optional database, measurement and topic-derived tags. Added lossless JSON editing for mixed mappings, validation, and update handling that leaves unchanged legacy mappings untouched.
+
+<sub>Source: the public PR and release pages of Arc and Arc Launchpad on GitHub and their APIs, as of November 9, 2026. The eight Arc core PRs, two SDK PRs and Launchpad PR #98 were merged by their respective upstream maintainers. #769 shipped in 26.09.2, #1055 and #1056 in 26.09.3, and #1051, #1073, #1241 and #1052 were merged after 26.09.3, the latest published release.</sub>
 
 <div align="center">
 
